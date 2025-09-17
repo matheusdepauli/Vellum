@@ -10,13 +10,13 @@
       --fundo: #a64d79;
       --texto: #ffffff;
       --max-width: 1140px;
+      --verde-palmeira: #2c6b3f;
     }
 
     body { margin:0; font-family: 'Poppins', sans-serif; color: var(--texto); background: var(--fundo); overflow-x: hidden;}
     a { text-decoration:none; color:inherit; }
     .wrap { max-width: var(--max-width); margin:0 auto; padding:0 24px; display:flex; justify-content:center; }
     .content-box { width:90vw; background: rgba(255,255,255,0.8); padding:30px; border-radius:12px; color:#333; }
-    
 
     /* Hero */
     header { text-align:center; padding: 10px 20px 10vw 20px; color:white; }
@@ -27,6 +27,7 @@
     section { padding:60px 20px; display:flex; justify-content:center; }
     h2 { font-size:32px; margin-bottom:20px; }
     .highlight { background: rgba(255,255,255,0.6); padding:15px; border-radius:8px; margin-top:15px; }
+    .important { border: 2px solid var(--verde-palmeira); color: var(--verde-palmeira); font-weight:bold; padding:12px; border-radius:10px; text-align:center; margin:15px 0; font-size:18px; display:block; word-wrap: break-word; }
     ul { list-style:none; padding:0; }
     ul li { margin-bottom:10px; font-size:18px; }
 
@@ -34,6 +35,7 @@
     .cards { display:flex; flex-wrap:wrap; gap:20px; justify-content:center; }
     .card { flex:1 1 250px; background: rgba(255,255,255,0.8); padding:20px; border-radius:12px; box-shadow:0 6px 18px rgba(0,0,0,0.06); color:#333; }
     .card h3 { margin-bottom:8px; }
+    .card .important { margin-top:10px; }
 
     footer { text-align:center; color:white; padding:60px 20px; }
     footer a { background:white; color:var(--fundo); padding:12px 30px; border-radius:30px; font-weight:bold; display:inline-block; margin-top:20px; }
@@ -56,6 +58,7 @@
         <p>Nosso esfoliante labial foi desenvolvido para proporcionar lábios macios, saudáveis e bem cuidados.</p>
         <p>Sua fórmula combina o poder esfoliante do açúcar cristal, que remove delicadamente a pele morta e seca, com uma base nutritiva de óleos e manteigas, garantindo hidratação e suavidade durante o processo.</p>
         <p class="highlight">O resultado são lábios mais lisos, revitalizados e preparados para receber hidratantes ou maquiagem, evitando o craquelamento do batom e promovendo um acabamento impecável.</p>
+        <span class="important">✨ Feito com Creatina Monohidratada (98% Natural) por causa da amina ✨</span>
       </div>
     </div>
   </section>
@@ -71,8 +74,9 @@
             <p>Remove as células mortas com açúcar cristal enquanto entrega óleos e manteigas nutritivas.</p>
           </div>
           <div class="card">
-            <h3>Creatina para revitalização</h3>
+            <h3>Creatina Monohidratada (98% Natural)</h3>
             <p>A creatina auxilia na renovação celular e na recuperação do viço natural dos lábios.</p>
+            <span class="important">Enfatizamos: feita com amina para resultados mais eficazes!</span>
           </div>
           <div class="card">
             <h3>Lábios lisos e saudáveis</h3>
@@ -91,6 +95,7 @@
         <ul>
           <li>✨ Esfolia suavemente</li>
           <li>✨ Nutre profundamente</li>
+          <li>✨ Feito com creatina monohidratada 98% natural <span class="important">(ação da amina)</span></li>
           <li>✨ Deixa os lábios prontos para o batom</li>
         </ul>
       </div>
